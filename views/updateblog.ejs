@@ -181,7 +181,7 @@
 			<center>
 				<div class=" mt-28 abcd ">
 					<form action="/updateblog/<%= blog._id %>" method="POST" enctype="multipart/form-data" class="flex flex-col">
-						<caption><h1 class="text-5xl font-semibold">Add Blogs!!</h1></caption>
+						<caption><h1 class="text-5xl font-semibold">Update Blogs!!</h1></caption>
 
 						<!-- TITLE OF THE BLOG -->
 						<input type="text" class="mt-5 px-4 py-3 rounded-lg" id="title" name="title" value="<%= blog.title %>" placeholder="Title:" required />
@@ -193,7 +193,7 @@
                         <input type="file" id="blogImage" name="blogImage" class="mt-4">
                         <img src="/<%= blog.blogImage %>" alt="Blog Image" class="mt-3" style="max-width: 200px; max-height: 200px;">
 						<!-- SUBMIT BUTTON -->  
-						<button type="submit" class="upload-button mt-5 bg-blue-800 items-center justify-center" name="submit">Add Blogs</button>
+						<button type="submit" class="upload-button mt-5 bg-blue-800 items-center justify-center" name="submit">Update Blog</button>
 					</form>
 				</div>
 		</div>
