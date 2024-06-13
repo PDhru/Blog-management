@@ -26,5 +26,4 @@ const localauth=(passport)=>{
         done(null, user);
     });
 }
-
 module.exports=localauth;
